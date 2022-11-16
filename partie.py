@@ -1,11 +1,11 @@
 import numpy as np
-from othellier import Othellier
-
+from othellier import *
 
 def partie(joueur1, joueur2):
 
     # On crée un othellier :
     # en début de partie, l'othellier est tel que : 
+
     debut_partie = np.zeros([8,8]) 
     debut_partie[4,3] = 1   # pion noir 
     debut_partie[3,4] = 1   # pion noir 

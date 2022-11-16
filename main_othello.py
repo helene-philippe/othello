@@ -8,7 +8,7 @@
 # ----------------------------- IMPORTATIONS ---------------------------------------
 
 import numpy as np 
-from partie import partie 
+from partie import partie
 
 # -------------------------------- MAIN --------------------------------------------
 
